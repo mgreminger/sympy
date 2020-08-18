@@ -44,6 +44,8 @@ L_BRACKET: '[';
 R_BRACKET: ']';
 CMD_LEFT: '\\left' -> skip;
 CMD_RIGHT: '\\right' -> skip;
+CMD_MLEFT: '\\mleft' -> skip;
+CMD_MRIGHT: '\\mright' -> skip;
 
 BAR: '|';
 
